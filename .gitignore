@@ -1,0 +1,29 @@
+# Folders
+*.gradle/
+*.idea/
+*gradle/
+*build/
+*libs/
+*mipmap-anydpi-v26/
+*mipmap-hdpi/
+*mipmap-mdpi/
+*mipmap-xhdpi/
+*mipmap-xxhdpi/
+*mipmap-xxxhdpi/
+*drawable-v24/
+
+# Filetypes
+*.zip
+
+# Specific files
+./.gitignore
+*.clang-format
+*gradle.properties
+*gradlew
+*local.properties
+*build.gradle
+*gradlew.bat
+*settings.gradle
+*proguard-rules.pro
+*ic_launcher_background.xml
+*.DS_Store

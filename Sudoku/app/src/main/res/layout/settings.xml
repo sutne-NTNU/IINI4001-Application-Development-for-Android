@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewChooseLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="324dp"
+        android:text="@string/instruction_Language"
+        app:layout_constraintEnd_toStartOf="@+id/list_MyBoards"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewNorwegian"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:onClick="onClick_NorwegianFlag"
+        android:src="@drawable/flag_norwegian"
+        app:layout_constraintEnd_toStartOf="@+id/list_MyBoards"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBritish" />
+
+    <ImageView
+        android:id="@+id/imageViewBritish"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:onClick="onClick_BritishFlag"
+        android:src="@drawable/flag_english"
+        app:layout_constraintEnd_toStartOf="@+id/list_MyBoards"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChooseLanguage" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_ViewBoards"
+        android:text="@string/button_ViewBoards"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <ListView
+        android:id="@+id/list_MyBoards"
+        android:layout_width="200dp"
+        android:layout_height="177dp"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.0">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_DeleteBoards"
+        style="@android:style/Widget.Material.Button.Borderless.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="onClick_Delete"
+        android:text="@string/button_DeleteBoards"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_MyBoards"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_Return"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onClick_Return"
+        android:text="@string/button_Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

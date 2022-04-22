@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">04 - Fragments, ActionBar and Menus</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="select_movie">Christopher Nolan movies:</string>
+
+    <string-array name="move_titles">
+        <item>Doodlebug</item>
+        <item>Following</item>
+        <item>Memento</item>
+        <item>Insomnia</item>
+        <item>Batman Begins</item>
+        <item>The Prestige</item>
+        <item>The Dark Knight</item>
+        <item>Inception</item>
+        <item>The Dark Knight Rises</item>
+        <item>Interstellar</item>
+        <item>Dunkirk</item>
+        <item>Tenet</item>
+    </string-array>
+
+    <string name="movie_desc_doodlebug">Doodlebug is a 1997 British short psychological thriller film written and directed by Christopher Nolan. It follows the story of a man anxiously trying to kill a bug-like creature in his apartment.</string>
+    <string name="movie_desc_following">Following is a 1998 British independent neo-noir crime thriller film written and directed by Christopher Nolan. It tells the story of a young man who follows strangers around the streets of London and is drawn into a criminal underworld when he fails to keep his distance.</string>
+    <string name="movie_desc_memento">A man with short-term memory loss attempts to track down his wife\'s murderer. Memento chronicles two separate stories of Leonard, an ex-insurance investigator who can no longer build new memories, as he attempts to find the murderer of his wife, which is the last thing he remembers.</string>
+    <string name="movie_desc_insomnia">Two Los Angeles homicide detectives are dispatched to a northern town where the sun doesn\'t set to investigate the methodical murder of a local teen. In Nightmute, Alaska, seventeen year old resident Kay Connell is found murdered.</string>
+    <string name="movie_desc_batman_begins">The film reboots the Batman film series, telling the origin story of Bruce Wayne from the death of his parents to his journey to become Batman and his fight to stop Ra\'s al Ghul and the Scarecrow from plunging Gotham City into chaos.</string>
+    <string name="movie_desc_the_prestige">The Prestige is an intricate tale of obsession, jealousy and deception. A mysterious story of two magicians, whose intense rivalry leads them on a life-long battle for supremacy, full of obsession, deceit, and jealousy, with dangerous and deadly consequences.</string>
+    <string name="movie_desc_the_dark_knight">“The Dark Knight” is a haunted film that leaps beyond its origins and becomes an engrossing tragedy. … But Batman poses a more complex puzzle than usual: The citizens of Gotham City are in an uproar, calling him a vigilante and blaming him for the deaths of policemen and others.</string>
+    <string name="movie_desc_inception">Inception is a 2010 science fiction action film written and directed by Christopher Nolan, who also produced the film with his wife, Emma Thomas. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets.</string>
+    <string name="movie_desc_the_dark_knight_rises">From a far side of the world, a lunatic rises from the darkness, determined to annihilate the city of the Dark Knight, who has been hiding for eight years. Joining forces with old and new allies, Bruce Wayne must put his mask on one last time to finish what he had started and become a hero again.</string>
+    <string name="movie_desc_interstellar">Interstellar is a 2014 epic science fiction film directed, co-written and produced by Christopher Nolan. … Set in a dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.</string>
+    <string name="movie_desc_dunkirk">This movie depicts the dramatic and true story of the Dunkirk evacuations from a war torn beach and harbor in France, following the seemingly doomed plight of allied soldiers in World War II. … The enemy forces have cornered four hundred thousand British and French soldiers on the French coast at Dunkirk.</string>
+    <string name="movie_desc_tenet">Recursive algorithms the movie</string>
+    <string-array name="movie_descriptions">
+        <item>@string/movie_desc_doodlebug</item>
+        <item>@string/movie_desc_following</item>
+        <item>@string/movie_desc_memento</item>
+        <item>@string/movie_desc_insomnia</item>
+        <item>@string/movie_desc_batman_begins</item>
+        <item>@string/movie_desc_the_prestige</item>
+        <item>@string/movie_desc_the_dark_knight</item>
+        <item>@string/movie_desc_inception</item>
+        <item>@string/movie_desc_the_dark_knight_rises</item>
+        <item>@string/movie_desc_interstellar</item>
+        <item>@string/movie_desc_dunkirk</item>
+        <item>@string/movie_desc_tenet</item>
+    </string-array>
+
+    <array name="movie_covers">
+        <item>@drawable/doodlebug</item>
+        <item>@drawable/following</item>
+        <item>@drawable/memento</item>
+        <item>@drawable/insomnia</item>
+        <item>@drawable/batman_begins</item>
+        <item>@drawable/the_prestige</item>
+        <item>@drawable/the_dark_knight</item>
+        <item>@drawable/inception</item>
+        <item>@drawable/the_dark_knight_rises</item>
+        <item>@drawable/interstellar</item>
+        <item>@drawable/dunkirk</item>
+        <item>@drawable/tenet</item>
+    </array>
+</resources>

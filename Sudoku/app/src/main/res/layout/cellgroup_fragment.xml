@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group"
+        android:padding="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:gravity="center_horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tableRow3">
+
+            <TextView
+                android:id="@+id/cell_1"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="0"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="1" />
+
+            <TextView
+                android:id="@+id/cell_2"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="1"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="2" />
+
+            <TextView
+                android:id="@+id/cell_3"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="2"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="3" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:gravity="center_horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tableRow2"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:id="@+id/cell_4"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="3"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="4" />
+
+            <TextView
+                android:id="@+id/cell_5"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="4"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="5" />
+
+            <TextView
+                android:id="@+id/cell_6"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="5"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="6" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:gravity="center_horizontal"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:id="@+id/cell_7"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="6"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="7" />
+
+            <TextView
+                android:id="@+id/cell_8"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="7"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="8" />
+
+            <TextView
+                android:id="@+id/cell_9"
+                android:background="@drawable/cell"
+                android:gravity="center"
+                android:minWidth="41dp"
+                android:minHeight="41dp"
+                android:tag="8"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="9" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

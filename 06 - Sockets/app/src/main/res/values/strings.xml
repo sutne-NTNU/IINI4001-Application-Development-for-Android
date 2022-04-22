@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">06 - Sockets</string>
+
+    <string name="text_ChooseApplicationType">Type of application</string>
+
+    <string name="radio_Client">Client</string>
+    <string name="radio_Server">Server</string>
+
+    <string name="button_CalculateSum">Calculate sum of numbers</string>
+    <string name="button_StartServer">Start as Server</string>
+    <string name="button_ConnectToServer">Connect To Server</string>
+
+    <string name="placeholder_Number2">Number 2 …</string>
+    <string name="placeholder_Number1">Number 1 …</string>
+
+    <string name="info_StateServer">You are hosting a Server</string>
+    <string name="info_StateClient">You are a client</string>
+    <string name="placeholder_ConnectedClients">Connected clients: 0</string>
+</resources>

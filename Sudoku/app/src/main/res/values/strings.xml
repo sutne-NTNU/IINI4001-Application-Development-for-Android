@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+
+    <!--Feedback-->
+    <string name="feedback_NewBoardSavedSuccessfully">New board was saved</string>
+    <string name="feedback_NewBoardSaveFailed">Failed to save new board</string>
+    <string name="feedback_BoardWasSaved">Board was saved</string>
+    <string name="feedback_BoardsWereDeleted">All your boards were deleted</string>
+    <string name="feedback_FoundNoSavedBoards">There were no saved boards</string>
+    <string name="feedback_BoardIsCorrect">CORRECT</string>
+    <string name="feedback_BoardIsNotCorrect">Almost there!</string>
+
+    <!--Instructions-->
+    <string name="instruction_Language">Language</string>
+    <string name="instruction_Difficulty">Difficulty</string>
+    <string name="instruction_CellValue">Value</string>
+
+    <!--Text-->
+    <string name="info_HowToPlay">How to play</string>
+    <string name="info_HowToPlay_Text">
+        Place the numbers from 1 to 9 such that every row, column and grid (group of 9 cells) contains these numbers.
+        \n\n
+        The same number can not appear twice within the same row, column or grid.
+    </string>
+
+    <!--Buttons-->
+    <string name="button_Continue">Continue Game</string>
+    <string name="button_NewGame">New Game</string>
+    <string name="button_AddBoard">Add Board</string>
+    <string name="button_Settings">Settings</string>
+    <string name="button_ViewBoards">View my boards</string>
+    <string name="button_DeleteBoards">Delete my boards</string>
+    <string name="button_StartGame">Start Game</string>
+    <string name="button_Confirm">Confirm</string>
+    <string name="button_Back">Back</string>
+    <string name="button_Quit">Quit</string>
+    <string name="button_Clear">Clear</string>
+    <string name="button_Save">Save</string>
+    <string name="button_CheckBoard">Check board</string>
+    <!--Radio-->
+    <string name="radio_Easy">Easy</string>
+    <string name="radio_Normal">Normal</string>
+    <string name="radio_Hard">Hard</string>
+    <!--Checkbox-->
+    <string name="checkbox_Unsure">Unsure</string>
+    <string name="feedback_MoreThanOneBoardSaved">more than one board saved, selecting the first one</string>
+
+</resources>

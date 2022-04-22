@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="375dp"
+        android:layout_height="375dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/group0"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="0" />
+
+            <fragment
+                android:id="@+id/group1"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="1" />
+
+            <fragment
+                android:id="@+id/group2"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/group3"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="3" />
+
+            <fragment
+                android:id="@+id/group4"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="4" />
+
+            <fragment
+                android:id="@+id/group5"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="117dp">
+
+            <fragment
+                android:id="@+id/group6"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="6" />
+
+            <fragment
+                android:id="@+id/group7"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="7" />
+
+            <fragment
+                android:id="@+id/group8"
+                android:name="Project.Sudoku.Fragments.CellGroup"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:tag="8" />
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:id="@+id/layout_SelectNumber"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="end|center_vertical"
+                android:text="@string/instruction_CellValue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:onClick="onClick_Unsure"
+                android:text="@string/checkbox_Unsure" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_height="wrap_content"
+                android:onClick="onClick_Clear"
+                android:text="@string/button_Clear" />
+
+            <Button
+                android:id="@+id/buttonChooseNumber"
+                style="@android:style/Widget.Material.Button.Colored"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:onClick="onClick_Confirm"
+                android:text="@string/button_Confirm" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonCheckBoard"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_CheckBoard"
+        android:text="@string/button_CheckBoard"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_SelectNumber"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_Return"
+        android:text="@string/button_Quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/buttonShowInstructions"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_Instructions"
+        android:text="@string/info_HowToPlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

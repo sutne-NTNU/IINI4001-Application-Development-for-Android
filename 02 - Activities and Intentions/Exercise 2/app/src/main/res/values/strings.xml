@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">02 - Activities and Intentions - Exercise 2</string>
+    <string name="add">Add</string>
+    <string name="multiply">Multiply</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Wrong! The correct answer was:</string>
+    <string name="answer">Answer:</string>
+    <string name="boundary_text">Number boundary:</string>
+</resources>

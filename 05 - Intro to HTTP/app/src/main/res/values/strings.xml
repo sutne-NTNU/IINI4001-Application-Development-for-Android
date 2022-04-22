@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">05 - Intro to HTTP</string>
+
+    <string name="placeholder_Name">Your Name…</string>
+    <string name="placeholder_CardNumber">Your Card-Number…</string>
+    <string name="placeholder_response">Tallet 10 er for stort! Beklager ingen flere sjanser, du må starte på nytt (registrer kortnummer og navn)</string>
+
+    <string name="button_Send">Submit</string>
+    <string name="button_Guess">Guess</string>
+    <string name="button_Restart">Restart</string>
+
+</resources>

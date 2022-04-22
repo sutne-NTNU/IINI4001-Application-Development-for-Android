@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+
+    <!--Feedback-->
+    <string name="feedback_NewBoardSavedSuccessfully">Brettet ble lagret</string>
+    <string name="feedback_NewBoardSaveFailed">Klarte ikke å lagre brettet, prøv på nytt</string>
+    <string name="feedback_BoardsWereDeleted">Alle dine brett ble slettet</string>
+    <string name="feedback_FoundNoSavedBoards">Du har ingen lagrede brett</string>
+    <string name="feedback_BoardIsCorrect">RIKTIG</string>
+    <string name="feedback_BoardIsNotCorrect">Ikke helt riktig, prøv igjen</string>
+    <string name="feedback_BoardWasSaved">Brettet ble lagret</string>
+
+    <!--Instructions-->
+    <string name="instruction_Language">Språk</string>
+    <string name="instruction_Difficulty">Vanskelighetsgrad</string>
+    <string name="instruction_CellValue">Verdi</string>
+
+    <!--Text-->
+    <string name="info_HowToPlay">Spilleregler</string>
+    <string name="info_HowToPlay_Text">
+        Plasser talle 1 til 9 slik at hver rad, kolonne og gruppe med celler inneholder disse tallene.
+        \n\n
+        Det samme tallet kan ikke dukke opp mer enn én gang i hver rad, kolonne og gruppe.
+    </string>
+
+    <!--Buttons-->
+    <string name="button_Continue">Fortsett spill</string>
+    <string name="button_NewGame">Nytt spill</string>
+    <string name="button_AddBoard">Legg til brett</string>
+    <string name="button_Settings">Innstillinger</string>
+    <string name="button_ViewBoards">Se mine brett</string>
+    <string name="button_DeleteBoards">Slett mine brett</string>
+    <string name="button_StartGame">Start spill</string>
+    <string name="button_Confirm">Bekreft</string>
+    <string name="button_Back">Tilbake</string>
+    <string name="button_Quit">Avslutt</string>
+    <string name="button_Clear">Tøm</string>
+    <string name="button_Save">Lagre</string>
+    <string name="button_CheckBoard">Sjekk om løsningen er korrekt</string>
+    <!--Radio-->
+    <string name="radio_Easy">Enkel</string>
+    <string name="radio_Normal">Normal</string>
+    <string name="radio_Hard">Vanskelig</string>
+    <!--Checkbox-->
+    <string name="checkbox_Unsure">Usikker</string>
+    <string name="feedback_MoreThanOneBoardSaved">more than one board saved, selecting the first one</string>
+
+</resources>

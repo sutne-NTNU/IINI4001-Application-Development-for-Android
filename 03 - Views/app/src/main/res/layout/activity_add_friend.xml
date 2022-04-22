@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/newFriendInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/new_friend_information"
+        android:textSize="24sp" />
+
+
+    <GridLayout
+        android:id="@+id/layout_addFriend"
+        android:layout_width="240dp"
+        android:layout_height="103dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/edit_newFriendName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/name_placeholder"
+            android:hint="@string/name_placeholder"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edit_newFriendBirthday"
+            android:layout_width="match_parent"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:autofillHints="@string/birthday_placeholder"
+            android:hint="@string/birthday_placeholder"
+            android:inputType="text" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_CancelAddFriend"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="0.93"
+            android:onClick="onClickCancelAddFriend"
+            android:text="@string/cancel"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_addFriend"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="onClickSaveAddFriend"
+            android:text="@string/add"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">03 - Views</string>
+    <string name="name">Name:</string>
+    <string name="name_placeholder">Name</string>
+    <string name="birthday">Birthday: </string>
+    <string name="birthday_placeholder">Birthday</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add Friend</string>
+    <string name="select">Select Friend</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save Changes</string>
+    <string name="new_friend_information">New friend\'s information:</string>
+</resources>

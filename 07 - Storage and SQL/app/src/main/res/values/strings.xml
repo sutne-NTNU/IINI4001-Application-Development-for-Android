@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">07 - Storage and SQL</string>
+
+    <string name="str_Authors">Author</string>
+    <string name="str_Titles">Title</string>
+    <string name="str_ShowInformation">Show book information</string>
+
+    <string name="btn_Return">Return</string>
+    <string name="btn_Settings">Settings</string>
+    <string name="btn_BackgroundColour_Info">Change the background color of the list</string>
+    <string name="btn_BackgroundColour">Background Colour</string>
+
+    <string-array name="color_names">
+        <item>White</item>
+        <item>Gray</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Cyan</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item>#FFFFFF</item>∂
+        <item>#D1D1D1</item>∂
+        <item>#C9DBFA</item>
+        <item>#FFD7D7</item>
+        <item>#E0FFDF</item>
+        <item>#FFFBE0</item>
+        <item>#D6FFFC</item>
+    </string-array>
+</resources>
